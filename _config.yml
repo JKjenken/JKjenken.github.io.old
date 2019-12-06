@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     jenken
-zhihu_username:     jenken
-github_username:    jenken
-twitter_username:   jenken
+#weibo_username:     jenken
+#zhihu_username:     lin-jian-kai-47
+github_username:    JKjenken
+#twitter_username:   jenken
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -59,10 +59,15 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: jenken
+disqus_username: false
 
 # Netease settings
 netease_comment: false
+
+# Gitalk settings
+comment_gitalk_clientId: b6f2b4eb89f0e4e7b796
+comment_gitalk_clientSecret: 99a659fbb694c12a150c06aac7894f5cc3fd50b9
+comment_gitalk_repo: JKjenken.github.io
 
 
 
@@ -78,13 +83,13 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Easier said than done<br>你所拥有的是别人的不可得"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Example is better then percept.<br>说一遍，不如做一遍。"
+sidebar-avatar: /img/avatar-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
+featured-tags: false                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
@@ -101,36 +106,36 @@ page-mathjax: false
 
 
 # Friends
-friends: [
-    {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "乱序",
-        href: "http://mida.re/"
-    },{
-        title: "Sherry Wu",
-        href: "https://xuechundesign.github.io"
-    },{
-        title: "Luke 的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
-    },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "JiyinYiyong",
-        href: "http://tiye.me/"
-    },{
-        title: "David's Game",
-        href: "https://www.ruoyaowu.com/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    }
-]
+#friends: [
+#    {
+#    #     title: "Su",
+#    #     href: "http://su.gallery/"
+#    # },{
+#        title: "乱序",
+#        href: "http://mida.re/"
+#    },{
+#        title: "Sherry Wu",
+#        href: "https://xuechundesign.github.io"
+#    },{
+#        title: "Luke 的自留地",
+#        href: "http://hmqk1995.github.io"
+#    },{
+#        title: "Ebn's Blog",
+#        href: "http://ebnbin.com/"
+#    },{
+#        title: "SmdCn's Blog",
+#        href: "http://blog.smdcn.net"
+#    },{
+#        title: "JiyinYiyong",
+#        href: "http://tiye.me/"
+#    },{
+#        title: "David's Game",
+#        href: "https://www.ruoyaowu.com/"
+#    },{
+#        title: "DHong Say",
+#        href: "http://dhong.co"
+#    },{
+#        title: "尹峰以为",
+#        href: "http://ingf.github.io/"
+#    }
+#]
