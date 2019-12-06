@@ -15,7 +15,7 @@ future: true
 RSS: false
 #weibo_username:     jenken
 #zhihu_username:     lin-jian-kai-47
-github_username:    JKjenken
+#github_username:    JKjenken
 #twitter_username:   jenken
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
@@ -67,8 +67,8 @@ netease_comment: false
 # Gitalk settings
 comment_gitalk_clientId: b6f2b4eb89f0e4e7b796
 comment_gitalk_clientSecret: 99a659fbb694c12a150c06aac7894f5cc3fd50b9
-comment_gitalk_repo: jkjenken.github.io
-
+comment_gitalk_repo: JKjenken.github.io
+github_username:    JKjenken
 
 
 # Analytics settings
