@@ -20,6 +20,12 @@ multilingual: true
     {{ about_en | markdownify }}
 </div>
 
+{% if site.github_username %}
+<!-- Gitalk start github_username-->
+<div class="comment">
+    <div id="clientID" class="clientID"></div>
+</div>
+{% endif %}
 
 {% if site.disqus_username %}
 <!-- disqus 评论框 start -->
