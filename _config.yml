@@ -15,9 +15,9 @@ future: true
 RSS: false
 #weibo_username:     jenken
 #zhihu_username:     lin-jian-kai-47
-#github_username:    JKjenken
-#twitter_username:   jenken
-#facebook_username:  huxpro
+github_username: JKjenken
+#twitter_username:
+#facebook_username:
 #linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -60,7 +60,7 @@ kramdown:
 
 # Disqus settings
 disqus_username: false
-
+
 # Netease settings
 netease_comment: false
 
@@ -68,7 +68,8 @@ netease_comment: false
 comment_gitalk_clientId: b6f2b4eb89f0e4e7b796
 comment_gitalk_clientSecret: 99a659fbb694c12a150c06aac7894f5cc3fd50b9
 comment_gitalk_repo: JKjenken.github.io
-github_username: JKjenken
+gitalk_username: JKjenken
+distractionFreeMode: false
 
 
 # Analytics settings

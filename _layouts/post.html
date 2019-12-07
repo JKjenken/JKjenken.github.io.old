@@ -48,7 +48,7 @@ layout: default
                 </ul>
                 <hr style="visibility: hidden;">
 
-                {% if site.github_username %}
+                {% if site.gitalk_username %}
                 <!-- Gitalk start github_username-->
                 <div class="comment">
                     <div id="clientID" class="clientID"></div>
@@ -142,18 +142,23 @@ layout: default
 <!-- disqus 公共JS代码 end -->
 {% endif %}
 
-{% if site.github_username %}
+{% if site.gitalk_username %}
 <!-- Gitalk start -->
 <div id="gitalk-container"></div> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script>
+    var clientID = "{{site.comment_gitalk_clientId}}";
+    var clientSecret = "{{site.comment_gitalk_clientSecret}}";
+    var repo = "{{site.comment_gitalk_repo}}";
+    var username = "{{site.gitalk_username}}";
+    var distractionFreeMode = "{{site.distractionFreeMode}}"
     var gitalk  = new Gitalk ({
         id: window.location.pathname,   // Ensure uniqueness and length less than 50
-        clientID: '{ {site.comment_gitalk_clientId} }',
-        clientSecret: '{ {site.comment_gitalk_clientSecret} }',
-        repo: '{ {site.comment_gitalk_repo} }',
-        owner: '{ {site.github_username} }',
-        admin: ['{ {site.github_username} }'],
+        clientID: clientID,
+        clientSecret: clientSecret,
+        repo: repo,
+        owner: username,
+        admin: [username],
         distractionFreeMode: false  // Facebook-like distraction free mode
     })
     gitalk.render('gitalk-container')

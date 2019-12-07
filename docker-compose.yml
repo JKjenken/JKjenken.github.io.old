@@ -4,4 +4,4 @@ jekyll:
     ports:
         - 3999:4000
     volumes:
-        - /Users/linjiankai/IdeaProjects/jenken.github.io:/srv/jekyll/
+        - d:/JKjenken.github.io:/srv/jekyll/
