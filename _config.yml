@@ -6,7 +6,7 @@ email: huxpro@gmail.com
 description: "关于编程开发、设计爱好者与热爱阅读 | 林坚锴，Switch Lover，Software Engineer，PPT Designer | 这里是 @JKjenken坚锴 的个人博客，一起享受编程的乐趣。"
 keyword: "林坚锴, Jenken坚锴, linjiankai, 林坚锴的博客, JKjenken Blog, 博客, 个人网站, 互联网, Web, Java, 后台, 设计"
 url: "https://JKjenken.github.io"              # your host, for absolute URL
-baseurl: "/JKjenken.github.io"                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
