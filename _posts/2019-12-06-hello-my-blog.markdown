@@ -51,7 +51,8 @@ tags:
 
 因此我采用docker来部署jekyll,下面我贴出docker-compose.yml的配置(关于docker的使用有疑问的朋友可以参见网上的其他相关资料)
 
-```dockerfile
+```
+dockerfile
 jekyll:
     image: jekyll/jekyll:pages
     command: jekyll serve --watch
