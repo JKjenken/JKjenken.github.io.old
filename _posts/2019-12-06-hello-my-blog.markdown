@@ -16,7 +16,7 @@ tags:
 
 我的 Blog 开通了.
 
-[comment]: <> ( [跳过絮絮叨叨 ](#build) 
+[comment]: <> ( [跳过絮絮叨叨 ](#build)
 
 2019年的最后一个月,也是21世纪10年代的最后一个月,我终于下定决心要开通博客啦！
 
@@ -35,7 +35,7 @@ tags:
 
 在这里要特别感谢[黄玄](http://huangxuan.me)无私的分享,整个博客的源码都来源于他的github仓库,我去除了disqus评论功能(在国内使用受限),改为使用gitalk.
 
-这个博客的搭建是通过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/)
+这个博客的本地搭建是通过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/)
 
 优点：
 * **Markdown** 写作
@@ -64,10 +64,8 @@ jekyll:
 ```
 挂载你自己对应的数据卷目录位置后,执行`docker-compose up` 即可
 
-接下来就是真正有价值的漫长的编写博文、发布博文的时间,关键是坚持不懈的把自己的博客更新下去,输出自己觉得有价值的东西.
+接下来就是真正有价值的漫长的编写博文、发布博文的时间,关键是坚持不懈的把自己的博客更新下去,输出自己觉得有价值的东西。
 
-不断反思,不断思考.
+不断反思,不断思考。
 
-互勉.
-
-
+互勉。
