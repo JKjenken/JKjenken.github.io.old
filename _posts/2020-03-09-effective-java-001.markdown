@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Effective-java-3rd"
-subtitle:   " 01 - 考虑使用静态工厂方法替代构造方法 "
+title:      "01 - 考虑使用静态工厂方法替代构造方法"
+subtitle:   "Effective-java-3rd"
 date:       2020-03-09 14:00:00
 author:     "linjiankai"
 header-img: "img/post-bg-effective-java-3rd.png"

@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Effective-java-3rd"
-subtitle:   " 02 - 当构造方法参数过多时使用 builder 模式 "
+title:      "02 - 当构造方法参数过多时使用 builder 模式 "
+subtitle:   "Effective-java-3rd"
 date:       2020-03-10 09:40:00
 author:     "linjiankai"
 header-img: "img/post-bg-effective-java-3rd.png"
@@ -148,6 +148,7 @@ public abstract class Pizza {
 Pizza.Builder 是一个带有递归类型参数（ recursive type parameter）（030 优先使用泛型代码）的泛型类型。该嵌套类与抽象的 self 方法一起，允许方法链在子类中正常工作，而不需要强制转换。
 
 >  编写具体的子类实现该抽象类
+
 ```Java
 import java.util.Objects;
 
@@ -203,9 +204,11 @@ public class Calzone extends Pizza {
     }
 }
 ```
+
 一个子类的方法被声明为返回在超类中声明的返回类型的子类型，称为协变返回类型（covariant return typing）。它允许客户端使用这些 builder，而不需要强制转换。
 
 客户端代码的编写(假设枚举常量使用静态导入)
+
 ``` Java
 NyPizza pizza = new NyPizza.Builder(SMALL)
         .addTopping(SAUSAGE).addTopping(ONION).build();
