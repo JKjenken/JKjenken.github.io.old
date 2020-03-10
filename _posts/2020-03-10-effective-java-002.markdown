@@ -2,7 +2,7 @@
 layout:     post
 title:      "02 - 当构造方法参数过多时使用 builder 模式 "
 subtitle:   "Effective-java-3rd"
-date:       2020-03-10 09:40:00
+date:       2020-03-10 11:40:00
 author:     "linjiankai"
 header-img: "img/post-bg-effective-java-3rd.png"
 catalog: true
