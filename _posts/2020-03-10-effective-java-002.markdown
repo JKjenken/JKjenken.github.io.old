@@ -13,9 +13,9 @@ tags:
 ## 类的构建方式
 当类包含更多的可选参数时，有三种可选方案。
 1. 可伸缩构造方法模式
-可伸缩构造方法模式是有效的，但是当有很多参数时，很难编写客户端代码，而且很难读懂它。
+    可伸缩构造方法模式是有效的，但是当有很多参数时，很难编写客户端代码，而且很难读懂它。
 2. JavaBeans模式
-调用一个无参的构造方法来创建对象，然后调用 setter 方法来设置每个必需的参数和可选参数。
+    调用一个无参的构造方法来创建对象，然后调用 setter 方法来设置每个必需的参数和可选参数。
 ```Java
 // JavaBeans Pattern - allows inconsistency, mandates mutability
 public class NutritionFacts {
@@ -41,7 +41,7 @@ public class NutritionFacts {
 JavaBeans 模式本身有严重的缺陷。由于构造方法被分割成了多次调用，所以在构造过程中JavaBean 可能处于不一致的状态。该类没有通过检查构造参数的参数有效性来强制一致性的选项。在不一致的状态下尝试使用对象可能会导致一些错误，这些错误与平常代码的 BUG 很是不同，因此很难调试。
 另一个缺点是JavaBeans模式排除了让类不可变的可能性，并且需要程序员增加工作以确保线程安全。
 3. Builder模式
-客户端不直接构造所需的对象，而是调用一个包含所有必需参数的构造方法 (或静态工厂) 得到一个 builder 对象。
+    客户端不直接构造所需的对象，而是调用一个包含所有必需参数的构造方法 (或静态工厂) 得到一个 builder 对象。
 ```Java
 // Builder Pattern
 public class NutritionFacts {
