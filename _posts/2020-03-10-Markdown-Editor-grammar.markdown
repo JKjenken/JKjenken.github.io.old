@@ -4,7 +4,7 @@ title:      "markdown Editor Grammar"
 subtitle:   "Grammar"
 date:       2020-03-10 11:00:00
 author:     "linjiankai"
-header-img: "img/post-bg-effective-java-3rd.png"
+header-img: "img/post-bg-re-vs-ng2.jpg"
 catalog: true
 tags:
     - markdown语法
