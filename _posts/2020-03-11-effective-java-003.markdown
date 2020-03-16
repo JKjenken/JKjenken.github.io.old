@@ -15,7 +15,9 @@ tags:
 单例是一个仅实例化一次的类，通常用来表示无状态的对象，如一个函数或者一个唯一的系统组件。将类设计成单例模式对于客户端来说测试起来会变得困难。
 原文的描述是：
 > Making a class a singleton can make it difficult to test its clients, as it’s impossible to substitute a mock implementation for a singleton unless it implements an interface that serves as its type.
-这意味着需要为单例类设置实现测试的接口，并且使用该接口将单例注入测试代码中。
+
+这意味着需要为单例类设置实现测试的接口，并且使用该接口将单例注入测试代码。
+
 ```Java
 public class SomeSingleton implements SomeInterface {
     ...
