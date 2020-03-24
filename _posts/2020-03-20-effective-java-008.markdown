@@ -27,3 +27,5 @@ Finalizer 机制的一个缺点是不能保证他们能够及时执行，在一�
 使用 finalizer 和 cleaner 机制会导致严重的性能损失。
 
 finalizer 机制有一个严重的安全问题：它们会打开你的类来进行 finalizer 机制攻击。**如果一个异常是从构造方法或它的序列化中抛出的——readObject 和 readResolve 方法 （第 12 章）——恶意子类的 finalizer 机制可以运行在本应该「中途夭折（died on the vine）」的部分构造对象上。**
+
+　总之，除了作为一个安全网或者终止非关键的本地资源，不要使用 Cleaner 机制，或者是在 Java 9 发布之前的 finalizers 机制。即使是这样，也要当心不确定性和性能影响。
